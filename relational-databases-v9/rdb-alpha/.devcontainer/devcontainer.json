@@ -1,0 +1,15 @@
+{
+  "name": "RDB Alpha",
+  "dockerFile": "../Dockerfile",
+  "workspaceFolder": "/workspace/project",
+  "containerEnv": {
+    "CODEROAD_WEBHOOK_TOKEN": "${localEnv:CODEROAD_WEBHOOK_TOKEN:}"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "coderoad.coderoad"
+      ]
+    }
+  }
+}
